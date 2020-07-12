@@ -8,7 +8,7 @@ import (
 
 	"github.com/micro/go-micro/v2"
 
-	pb "github.com/nickbryan/shippy/shippy-cli-vessel/proto/vessel"
+	pb "github.com/nickbryan/shippy/shippy-service-vessel/proto/vessel"
 )
 
 type repository interface {
