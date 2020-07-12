@@ -284,6 +284,7 @@ github.com/micro/go-micro/v2 v2.9.1-0.20200709192134-3480e0a64e21/go.mod h1:Szpx
 github.com/micro/go-micro/v2 v2.9.1 h1:+S9koIrNWARjpP6k2TZ7kt0uC9zUJtNXzIdZTZRms7Q=
 github.com/micro/go-micro/v2 v2.9.1/go.mod h1:x55ZM3Puy0FyvvkR3e0ha0xsE9DFwfPSUMWAIbFY0SY=
 github.com/micro/micro/v2 v2.9.2-0.20200712053534-507a83841187/go.mod h1:CCrmjN92Gc1kLZiux+8DvmfK/FLN6Tr9YtlVcz1nLTk=
+github.com/micro/micro/v2 v2.9.3/go.mod h1:YsjUsRTTjtBw07MnEYeglNLCZjgvrbmdQFKfTuC9AYk=
 github.com/micro/services v0.0.0-20200710134101-ae48cf29b8ba/go.mod h1:myTgDHdIZUM5EzrYLBgBSmxalNvhpK6wxBkIL4zkENA=
 github.com/miekg/dns v1.1.15/go.mod h1:W1PPwlIAgtquWBMBEV9nkV9Cazfe8ScdGz/Lj7v3Nrg=
 github.com/miekg/dns v1.1.27 h1:aEH/kqUzUxGJ/UHcEKdJY+ugH6WEzsEBBSPa8zuy1aM=
@@ -326,6 +327,8 @@ github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093443-3c5
 github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093443-3c5492468c29/go.mod h1:kaKu/b0+3tlTi17BUnt+lV6mC1s09NGMs2hGZqCNWHI=
 github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093646-e4fe4fcf5867 h1:EbF+35SGkIgsEF61yQOamefS3wG+68/Qf2CkhJpjyK4=
 github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093646-e4fe4fcf5867/go.mod h1:V3/uC3dnByYsFioD+A38CfnJqwllnDcr5fgPZxqCtPI=
+github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712102434-0d36293d7492 h1:QlV4CiiD9iHBkU3Xlw6SU0qWdpUr09AkdEZ+yUOO5g0=
+github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712102434-0d36293d7492/go.mod h1:FzOLG/9sygaVxix+MRGEvBotqhj6OZ3mx0nnItSIg4A=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/nlopes/slack v0.6.1-0.20191106133607-d06c2a2b3249/go.mod h1:JzQ9m3PMAqcpeCam7UaHSuBuupz7CmpjehYMayT6YOk=
 github.com/nrdcg/auroradns v1.0.0/go.mod h1:6JPXKzIRzZzMqtTDgueIhTi6rFf1QvYE/HzqidhOhjw=
@@ -653,6 +656,7 @@ google.golang.org/grpc v1.21.1/go.mod h1:oYelfM1adQP15Ek0mdvEgi9Df8B9CZIaU1084ij
 google.golang.org/grpc v1.22.0/go.mod h1:Y5yQAOtifL1yxbo5wqy6BxZv8vAUGQwXBOALyacEbxg=
 google.golang.org/grpc v1.23.0/go.mod h1:Y5yQAOtifL1yxbo5wqy6BxZv8vAUGQwXBOALyacEbxg=
 google.golang.org/grpc v1.25.1/go.mod h1:c3i+UQWmh7LiEpx4sFZnkU36qjEYZ0imhYfXVyQciAY=
+google.golang.org/grpc v1.26.0 h1:2dTRdpdFEEhJYQD8EMLB61nnrzSCTbG38PhqdhvOltg=
 google.golang.org/grpc v1.26.0/go.mod h1:qbnxyOmOxrQa7FizSgH+ReBfzJrCY1pSN7KXBS8abTk=
 google.golang.org/grpc v1.27.0/go.mod h1:qbnxyOmOxrQa7FizSgH+ReBfzJrCY1pSN7KXBS8abTk=
 google.golang.org/grpc v1.30.0 h1:M5a8xTlYTxwMn5ZFkwhRabsygDY5G8TYLyQDBxJNAxE=

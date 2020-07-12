@@ -5,16 +5,14 @@ package vessel
 
 import (
 	fmt "fmt"
-	math "math"
-
 	proto "github.com/golang/protobuf/proto"
+	math "math"
+)
 
+import (
 	context "context"
-
 	api "github.com/micro/go-micro/v2/api"
-
 	client "github.com/micro/go-micro/v2/client"
-
 	server "github.com/micro/go-micro/v2/server"
 )
 

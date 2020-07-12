@@ -2,6 +2,8 @@ module github.com/nickbryan/shippy/shippy-service-consignment
 
 go 1.14
 
+replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
+
 require (
 	github.com/coreos/etcd v3.3.22+incompatible // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
