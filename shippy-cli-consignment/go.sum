@@ -324,6 +324,8 @@ github.com/netdata/go-orchestrator v0.0.0-20190905093727-c793edba0e8f/go.mod h1:
 github.com/nickbryan/shippy v0.0.0-20200712093443-3c5492468c29 h1:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093443-3c5492468c29 h1:DFijEFmWhcKiOqV0lzu99ClG8V4tdFO1mSOsqC16Rkw=
 github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093443-3c5492468c29/go.mod h1:kaKu/b0+3tlTi17BUnt+lV6mC1s09NGMs2hGZqCNWHI=
+github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093646-e4fe4fcf5867 h1:EbF+35SGkIgsEF61yQOamefS3wG+68/Qf2CkhJpjyK4=
+github.com/nickbryan/shippy/shippy-service-consignment v0.0.0-20200712093646-e4fe4fcf5867/go.mod h1:V3/uC3dnByYsFioD+A38CfnJqwllnDcr5fgPZxqCtPI=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/nlopes/slack v0.6.1-0.20191106133607-d06c2a2b3249/go.mod h1:JzQ9m3PMAqcpeCam7UaHSuBuupz7CmpjehYMayT6YOk=
 github.com/nrdcg/auroradns v1.0.0/go.mod h1:6JPXKzIRzZzMqtTDgueIhTi6rFf1QvYE/HzqidhOhjw=

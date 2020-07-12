@@ -9,6 +9,7 @@ require (
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.4.2
 	github.com/micro/go-micro/v2 v2.9.1
+	github.com/micro/micro/v2 v2.9.3 // indirect
 	github.com/miekg/dns v1.1.30 // indirect
 	github.com/nats-io/jwt v1.0.1 // indirect
 	github.com/nats-io/nats.go v1.10.0 // indirect
@@ -22,6 +23,7 @@ require (
 	golang.org/x/tools v0.0.0-20200711155855-7342f9734a7d // indirect
 	google.golang.org/genproto v0.0.0-20200711021454-869866162049 // indirect
 	google.golang.org/grpc v1.30.0 // indirect
+	google.golang.org/grpc/examples v0.0.0-20200709232328-d8193ee9cc3e // indirect
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
