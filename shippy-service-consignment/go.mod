@@ -9,5 +9,6 @@ require (
 	github.com/golang/protobuf v1.4.2
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/nickbryan/shippy/shippy-service-vessel v0.0.0-20200712110101-c04650868374
+	go.mongodb.org/mongo-driver v1.3.5
 	google.golang.org/protobuf v1.25.0
 )
