@@ -20,18 +20,18 @@ func (h *handler) CreateConsignment(ctx context.Context, req *pb.Consignment, re
 		Capacity:  int32(len(req.Containers)),
 	})
 
-	if vesselResponse == nil {
-		err = errors.New("client returned nil")
-	}
-
 	if err != nil {
 		return fmt.Errorf("unable to fetch vessel: %w", err)
+	}
+
+	if vesselResponse == nil {
+		return errors.New("client returned nil")
 	}
 
 	req.VesselId = vesselResponse.Vessel.Id
 
 	if err := h.repository.Create(ctx, MarshalConsignment(req)); err != nil {
-		return fmt.Errorf("unable to fetch vessel: %w", err)
+		return fmt.Errorf("unable to create consignment: %w", err)
 	}
 
 	res.Created = true

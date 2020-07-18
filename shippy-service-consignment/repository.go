@@ -12,17 +12,17 @@ import (
 )
 
 type Consignment struct {
-	ID          string     `json:"id"`
-	Weight      int32      `json:"weight"`
-	Description string     `json:"description"`
-	Containers  Containers `json:"containers"`
-	VesselID    string     `json:"vessel_id"`
+	ID          string     `bson:"id"`
+	Weight      int32      `bson:"weight"`
+	Description string     `bson:"description"`
+	Containers  Containers `bson:"containers"`
+	VesselID    string     `bson:"vessel_id"`
 }
 
 type Container struct {
-	ID         string `json:"id"`
-	CustomerID string `json:"customer_id"`
-	UserID     string `json:"user_id"`
+	ID         string `bson:"id"`
+	CustomerID string `bson:"customer_id"`
+	UserID     string `bson:"user_id"`
 }
 
 type Containers []*Container
