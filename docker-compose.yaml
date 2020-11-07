@@ -28,6 +28,32 @@ services:
       - consignment
       - vessel
 
+  user:
+    build: ./shippy-service-user
+    ports:
+      - 50053:50051
+    environment:
+      MICRO_ADDRESS: ":50051"
+      DB_HOST: "database"
+      DB_USER: "admin"
+      DB_PASSWORD: "password"
+      DB_NAME: "postgres"
+
+  user-cli:
+    build: ./shippy-cli-user
+    depends_on:
+      - consignment
+      - vessel
+      - user
+
+  database:
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_USER: "admin"
+    ports:
+      - 5432:5432
+
   datastore:
     image: mongo
     container_name: "datastore"
